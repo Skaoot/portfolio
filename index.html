@@ -1,40 +1,52 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>Shiny Shiny Soup</title>
+  <title>Skaoot.nl - Web Dev</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Raleway|Roboto|Limelight|Amatic+SC' rel='stylesheet' type='text/css'>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/app.js" type="text/javascript"></script>
   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/app.js" type="text/javascript"></script>
+  <script src="js/declarativeToggle.js" type="text/javascript"></script>
+ 
 </head>
 
 <body>
 
 <div id="header-wrap">
-  
+     
   <nav id="header" class="group">
-    <ul>
+      <a href="http://blog.skaoot.nl" target="_blank" id="blognote">Looking for my personal blog?</br>It's now on blog.skaoot.nl</a>
+         
+   <span data-toggle-target="#nav-menu" class="toggle-btn" id="menu-btn"><i class="fa fa-bars"></i></span>
+
+      <ul id="nav-menu">
     
-      <li><a href="#">Home</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>  
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>  
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       
-    </ul>
-</nav>
+      </ul>
+
+  </nav>
   
 </div>
 
 <header class="content">
     <div class="container">
       
-      <h1>Shiny Shiny Soup</h1>
-      <p>Web Design & Development</p>
-      <p>Got an awesome idea for a website? I'll help you create it!</p> 
+      <h1>Skaoot.nl</h1>
+      <h2>Web Design & Development</h2>
+ 
+      <h3>Do you have or need an awesome idea for a website?</br>Let's create it!</h3>
       
+      <p>Small business in need of an online presence?</br>I will make a site that fits your brand or business identiy. </p>
+      <p>Time to refresh your existing website?</br>I can make it responsive for tablets and smartphones.</p>
+      <p><a href="#contact">Contact me</a> and I'll help you turn your ideas into an actual website.</p>
+      <p>It really is that simple!</p>
     </div>
 </header>  
 
@@ -46,43 +58,66 @@
         <div class="row">
 
           <div class="col col-xs-6 col-sm-4">
-
-            <a href="images/cat.jpg"><img src="http://lorempixel.com/500/500/cats"></a>
-
+<!-- Dr. Who -->
+            <a href="http://code.skaoot.nl/project3/start.html" target="_blank">
+              <div class="img-div">
+                <img src="images/drwhothumb.jpg">
+                <div class="img-description">Dr. Who Fan Page</div>
+              </div>
+            </a>
           </div><!--col-->
 
           <div class="col col-xs-6 col-sm-4">
-
-            <a href="images/code.jpg"><img src="http://lorempixel.com/500/500/technics"></a>
-
+<!-- BBC Clone -->
+            <a href="http://code.skaoot.nl/bbc.html" target="_blank">
+             <div class="img-div">
+                <img src="images/bbcthumb.jpg">
+                <div class="img-description">BBC Clone - HTML & CSS</div>
+              </div>
+             </a>
           </div><!--col-->
 
           <div class="col col-xs-6 col-sm-4">
-
-            <a href="images/food.jpg"><img src="http://lorempixel.com/500/500/food"></a>
-
+<!-- code.skaoot -->
+            <a href="http://code.skaoot.nl/index.html" target="_blank">
+             <div class="img-div">
+                <img src="images/codeskaootthumb.jpg">
+                <div class="img-description">First site from scratch</div>
+              </div>
+             </a>
           </div><!--col-->
 
           <div class="col col-xs-6 col-sm-4">
-
-            <a href="images/sun.jpg"><img src="http://lorempixel.com/500/500/nature"></a>
-
+<!-- goals 2016 -->
+            <a href="http://code.skaoot.nl/project1/project1.html" target="_blank">
+             <div class="img-div">
+                <img src="images/goalsthumb.jpg">
+                <div class="img-description">CSS meets Canva</div>
+              </div>
+            </a>
+          </div><!--col-->  
+                     
+          <div class="col col-xs-6 col-sm-4">
+<!-- rainbows -->
+            <a href="http://code.skaoot.nl/project2/Project2.html" target="_blank">
+              <div class="img-div">
+                <img src="images/rainbowthumb.jpg">
+                <div class="img-description">Rainbows - CSS animation</div>
+              </div>
+             </a>
           </div><!--col-->
 
           <div class="col col-xs-6 col-sm-4">
-
-            <a href="images/sun.jpg"><img src="http://lorempixel.com/500/500/cats"></a>
-
+<!-- reaction -->           
+            <a href="http://code.skaoot.nl/js/reaction.html" target="_blank">
+                <div class="img-div">
+                <img src="images/reactionthumb.jpg">
+                <div class="img-description">Reaction game - JS</div>
+              </div>
+             </a>
           </div><!--col-->
 
-          <div class="col col-xs-6 col-sm-4">
-
-            <a href="images/sun.jpg"><img src="http://lorempixel.com/500/500/technics"></a>
-
-          </div><!--col-->
-
-        </div><!--row-->
-      
+        </div><!--row-->      
           
       </div><!-- box-->
     </div>
@@ -90,9 +125,14 @@
 
     <div id="about" class="content">
       <div class="container">
-      <h1>Behind the Shiny Shiny Soup scenes</h1>
-        <p>Cat ipsum dolor sit amet, hiss at vacuum cleaner. Burrow under covers. Hunt by meowing loudly at 5am next to human slave food dispenser jump around on couch, meow constantly until given food, wake up human for food at 4am sniff other cat's butt and hang jaw half open thereafter. Chase red laser dot see owner, run in terror flop over, or pelt around the house and up and down stairs chasing phantoms curl into a furry donut and if it fits, i sits so kitty loves pigs. Hack up furballs claws in your leg but love to play with owner's hair tie or touch water with paw then recoil in horror chew on cable so stare at ceiling spread kitty litter all over house.</p>
-        <p>Kitty loves pigs jump around on couch, meow constantly until given food, for throwup on your pillow, yet pooping rainbow while flying in a toasted bread costume in space but scratch leg; meow for can opener to feed me. Lay on arms while you're using the keyboard eat a plant, kill a hand, for scamper if it smells like fish eat as much as you wish or leave hair everywhere. Caticus cuteicus find something else more interesting chase mice, but meow all night having their mate disturbing sleeping humans play time. Destroy the blinds.</p>
+      <h1>About</h1>
+        <p><span class="firstCharacter">H</span>ello! I'm Josien Brands and I'm working on becoming the most awesome front-end web developer I can be! The learning never stops, so it only gets better, right? Coding has been trying to get my attention for some time now but it wasn't until last year I stoppped, listened and decided to give it a serious try. Finally! </p>
+        <p><span class="firstCharacter">T</span>he only regret so far is not listening before, coding web sites is great, I love it! This seems to be the thing where all my talents, skills and interests meet. So I spend as much time as I can now working on my front-end development skills.</p>
+        
+        <p><span class="firstCharacter">R</span>ight now I'm focussing on basic websites. And with basic I do not mean boring, no way! You can do amazing things with CSS (and ok, maybe add some JS/jQuery). What I mean with basic is you do not need a big multipage hyper interactive web project for a clear and noticeable online presence. </p>
+        <p><span class="firstCharacter">T</span>he most important thing is to BE online, in a way that fits you/your company/brand, and is accessible for today's multitude of devices. And I can provide that for you, how awesome is that! Not being online or being accessible is robbing yourself of potential clients, so get in touch with me and we'll figure out how to fix this.</p>
+
+      <p><span class="firstCharacter">S</span>o here I am, putting myself out there, looking for projects to help you, by making your web dreams come true, and to challenge myself, by actually making those dreams come true. Sounds good right? So contact me (twitter, mail, smoke signals, come by for a drink) and lets make the web a little better together!</p>
       </div>
     </div>
 
@@ -104,7 +144,7 @@
        <p>I'd love to hear from you! Contact me on:</p>
        <ul>
          <li><a href="https://twitter.com/JosienBrands" target="_blank"><span class="fa fa-twitter fa-fw"></span>Twitter</a></li>
-         <li><a href="mailto:code@skaoot.nl" target="top"><span class="fa fa-envelope-o fa-fw"></span>Email</a></li>
+         <li><a href="mailto:josien@skaoot.nl" target="top"><span class="fa fa-envelope-o fa-fw"></span>Email</a></li>
          <li><a href="https://www.linkedin.com/in/josien-brands-13396023?trk=nav_responsive_tab_profile" target="_blank"><span class="fa fa-linkedin fa-fw"></span>LinkedIn</a></li>
       </ul>
       <p>Or find me (and my work) on:</p>
